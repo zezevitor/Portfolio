@@ -1,0 +1,260 @@
+main {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y !important;
+}
+
+a {
+  color: #e8e2da;
+  text-decoration: none;
+}
+
+section:nth-child(even) {
+  background-color: #3f3a34;
+}
+
+.Components {
+  height: 100vh;
+  width: 100%;
+  color: #e8e2da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Start {
+  padding-top: 30px;
+}
+
+.Start > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  height: 50%;
+  width: 100%;
+  padding: auto;
+}
+
+.title h1 {
+  margin-left: 100px;
+  width: 90%;
+  padding: 20px;
+  font-size: 500%;
+  text-align: center;
+  border-top: 4px dotted #e8e2da;
+  border-bottom: 4px dotted #e8e2da;
+}
+
+.photo {
+  width: 400px;
+}
+
+.photo img {
+  width: 500px !important;
+  border-radius: 4em;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.startButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+}
+
+.startButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+}
+
+.startButtom {
+  color: #e8e2da !important;
+  height: 200px;
+  width: 200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #4a4640;
+  border: 1px solid #e8e2da;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  text-justify: auto;
+  cursor: pointer;
+}
+
+.startButtom:nth-child(even) {
+  margin-left: 200px;
+}
+
+.startButtom:nth-child(odd) {
+  margin-right: 200px;
+}
+
+.projectList {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.projectList > ul {
+  padding-left: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.projectList > ul > li:not(:last-child) {
+  border-bottom: 1px solid #e8e2da;
+}
+
+.projectList > ul > li:last-child {
+  border-bottom: none;
+}
+
+.projectList > ul > li {
+  font-size: 150%;
+  display: flex;
+  text-align: center;
+  flex-grow: 1;
+  transition: all 0.3s ease;
+}
+
+.projectList > ul > li:hover {
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.projectList > ul > li > label {
+  margin: 30px;
+}
+
+.projectDetail {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectDetail > div {
+  height: 50%;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e8e2da;
+}
+
+.projectDetail > p {
+  font-size: 400%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.About {
+  flex-direction: column;
+}
+
+.aboutTitle {
+  font-size: 250%;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.aboutPhoto {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.aboutPhoto img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.aboutContent {
+  max-width: 800px;
+  text-align: center;
+  font-size: 150%;
+  line-height: 1.8;
+}
+
+.Contact {
+  flex-direction: column;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.socialMedia > a {
+  font-size: 1000%;
+  transition: all 0.3s ease;
+}
+
+.socialMedia > a:hover {
+  font-size: 1200%;
+}
+
+.mail {
+  font-size: 200%;
+  transition: all 0.3s ease;
+}
+
+.mail:hover {
+  font-size: 220%;
+}
+
+.mail > a{
+  padding: 20px;
+}
+
+.Rate > fieldset {
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.textInput {
+  width: 80%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-size: 120%;
+  border: 2px solid #e8e2da;
+  border-radius: 5px;
+  background-color: #4a4640;
+  color: #e8e2da;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.textInput:focus {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.submitButton {
+  padding: 10px;
+  border: 2px solid #e8e2da;
+  border-radius: 5px;
+  background-color: #4a4640;
+  color: #e8e2da;
+  outline: none;
+}
