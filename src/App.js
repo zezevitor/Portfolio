@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Header from "./Header";
 import Main from "./Main/Main";
 import Footer from "./Footer";
-import Canvas from "./Canvas/Canvas";
 
 function App() {
   const refs = {
@@ -20,7 +19,6 @@ function App() {
       <Header refs={refs} scrollTo={scrollTo} />
       <Main refs={refs} scrollTo={scrollTo} />
       <Footer />
-      <Canvas />
     </div>
   );
 }

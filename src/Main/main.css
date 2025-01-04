@@ -206,12 +206,12 @@ section:nth-child(even) {
 }
 
 .socialMedia > a {
-  font-size: 1000%;
+  font-size: 400%;
   transition: all 0.3s ease;
 }
 
 .socialMedia > a:hover {
-  font-size: 1200%;
+  font-size: 500%;
 }
 
 .mail {
@@ -225,36 +225,4 @@ section:nth-child(even) {
 
 .mail > a{
   padding: 20px;
-}
-
-.Rate > fieldset {
-  padding: 20px;
-  width: 30%;
-  text-align: center;
-}
-
-.textInput {
-  width: 80%;
-  padding: 10px 15px;
-  margin: 10px 0;
-  font-size: 120%;
-  border: 2px solid #e8e2da;
-  border-radius: 5px;
-  background-color: #4a4640;
-  color: #e8e2da;
-  outline: none;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.textInput:focus {
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-}
-
-.submitButton {
-  padding: 10px;
-  border: 2px solid #e8e2da;
-  border-radius: 5px;
-  background-color: #4a4640;
-  color: #e8e2da;
-  outline: none;
 }

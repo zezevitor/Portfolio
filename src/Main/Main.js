@@ -3,7 +3,6 @@ import Start from "./Start";
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
-import Rate from "./Rate";
 import "./main.css";
 
 const Main = ({ refs, scrollTo }) => {
@@ -19,7 +18,6 @@ const Main = ({ refs, scrollTo }) => {
       <section ref={refs.contact}>
         <Contact />
       </section>
-      <Rate />
     </main>
   );
 };
