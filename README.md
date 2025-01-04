@@ -1,15 +1,18 @@
-# Getting Started with Create React App
+# Meu portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi feito com [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+1. Clone o reposiório
 ```bash
+git clone https://github.com/zezevitor/Portfolio.git
+```
+
+2. Executar
+```bash
+cd Portfolio
 npm start
 ```
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Acesse em [http://localhost:3000](http://localhost:3000) para ver em seu browser.
